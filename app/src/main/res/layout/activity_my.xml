@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_framework_assist2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mestrado.motorolaMode.MyActivity">
+
+    <Switch
+        android:id="@+id/SleepingSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sleeping Mode " />
+
+    <LinearLayout
+        android:id="@+id/LLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/SleepingSwitch">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Initial time:" />
+
+        <Spinner
+            android:id="@+id/SpinnerInitialTime"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/SpinnerInitialTimeMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/LLayout1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Final time:" />
+
+        <Spinner
+            android:id="@+id/SpinnerFinalTime"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/SpinnerFinalTimeMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/HomeSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LLayout2"
+        android:text="Home Mode " />
+
+    <LinearLayout
+        android:id="@+id/LLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/HomeSwitch">
+
+        <Button
+            android:id="@+id/BtSetLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location: " />
+
+        <TextView
+            android:id="@+id/TViewLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <Switch
+        android:id="@+id/MeetingSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LLayout3"
+        android:text="Meeting Mode " />
+
+    <LinearLayout
+        android:id="@+id/LLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MeetingSwitch">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message: " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/DrivingSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LLayout4"
+        android:text="Driving Mode " />
+</RelativeLayout>
