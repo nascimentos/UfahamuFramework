@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/rafael/AndroidStudioProjects/FrameworkAware-master/ufahamu/build/intermediates/res/merged/androidTest/debug/layout-v21/place_autocomplete_fragment.xml",
+        "source": "/home/rafael/.android/build-cache/303a2f5854a7c95388b61c72eecde7bc6034f58d/output/res/layout-v21/place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "/home/rafael/AndroidStudioProjects/FrameworkAware-master/ufahamu/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/rafael/.android/build-cache/58d03ce35e6db7a6869c78ad722f2551802f829f/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/rafael/AndroidStudioProjects/FrameworkAware-master/ufahamu/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/rafael/.android/build-cache/58d03ce35e6db7a6869c78ad722f2551802f829f/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/rafael/AndroidStudioProjects/FrameworkAware-master/ufahamu/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_action.xml",
+        "source": "/home/rafael/.android/build-cache/58d03ce35e6db7a6869c78ad722f2551802f829f/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/rafael/AndroidStudioProjects/FrameworkAware-master/ufahamu/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/rafael/.android/build-cache/58d03ce35e6db7a6869c78ad722f2551802f829f/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

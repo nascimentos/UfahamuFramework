@@ -45,8 +45,6 @@ public abstract class Context implements Serializable, GoogleApiClient.Connectio
     private final String LOCATION_KEY = "Location";
     private final String HEADPHONE_KEY = "Headphone";
     private final String DATE_KEY = "Date";
-    public static final String TESTE = "TESTE";
-    public static final String LOG = "LOG_TESTE";
 
     public Context() {
         contextEventCheckingTimes = doDefineContextualCheckTimes();
@@ -62,7 +60,6 @@ public abstract class Context implements Serializable, GoogleApiClient.Connectio
                 isTimerTaskRunning = true;
 
                 if (Context.this instanceof AwarenessAPIContext) {
-                    Log.i(LOG, "Awareness Monitoring...");
                     switch (awarenessAPIContextType) {
                         case DATE_KEY:
                             verifyDateContext();
@@ -77,7 +74,6 @@ public abstract class Context implements Serializable, GoogleApiClient.Connectio
                             verifyHeadphoneStateContext();
                     }
                 } else if (Context.this instanceof NewContext) {
-                    Log.i(LOG, "New Monitoring...");
                     doCreateNewContext();
                 }
             }
@@ -123,7 +119,6 @@ public abstract class Context implements Serializable, GoogleApiClient.Connectio
 
         if (awarenessAPIContextType == null) {
             awarenessAPIContextType = LOCATION_KEY;
-            //Log.i(AwarenessAPIContextTest1.TESTE, "Context set: Location");
         }
     }
 
@@ -136,7 +131,6 @@ public abstract class Context implements Serializable, GoogleApiClient.Connectio
 
         if (awarenessAPIContextType == null) {
             awarenessAPIContextType = ACTIVITY_KEY;
-            //Log.i(AwarenessAPIContextTest1.TESTE, "Context set: Activity");
         }
     }
 
@@ -149,12 +143,10 @@ public abstract class Context implements Serializable, GoogleApiClient.Connectio
 
         if (awarenessAPIContextType == null) {
             awarenessAPIContextType = HEADPHONE_KEY;
-            //Log.i(AwarenessAPIContextTest1.TESTE, "Context set: Headphone state");
         }
     }
 
     public ContextState getState() {
-        //Log.i(AwarenessAPIContextTest1.TESTE, awarenessAPIContextType + " " + state);
         return state;
     }
 
@@ -211,9 +203,6 @@ public abstract class Context implements Serializable, GoogleApiClient.Connectio
 
     private void verifyDateContext() {
         Date actualTime = new Date();
-        Log.i(LOG, "Start date: " + startDate.toString());
-        Log.i(LOG, "Actual date: " + actualTime.toString());
-        Log.i(LOG, "Stop date: " + stopDate.toString());
 
         if (startDate != null && stopDate != null) {
             if (actualTime.after(startDate) && actualTime.before(stopDate)) {
@@ -230,11 +219,6 @@ public abstract class Context implements Serializable, GoogleApiClient.Connectio
                     .setResultCallback(new ResultCallback<LocationResult>() {
                         @Override
                         public void onResult(@NonNull LocationResult locationResult) {
-                            if (locationResult != null && locationResult.getLocation() != null) {
-                                Log.i(LOG, locationResult.getLocation().toString());
-                                Log.i(LOG, String.valueOf(locationResult.getLocation().distanceTo(location)));
-                            }
-
                             if (location != null
                                     && radius != null
                                     && locationResult != null
@@ -259,7 +243,6 @@ public abstract class Context implements Serializable, GoogleApiClient.Connectio
                     public void onResult(@NonNull DetectedActivityResult detectedActivityResult) {
                         DetectedActivity detectedActivity = detectedActivityResult
                                 .getActivityRecognitionResult().getMostProbableActivity();
-                        //Log.i(AwarenessAPIContextTest1.TESTE, detectedActivity.toString());
 
                         if (userActivity != null && detectedActivity != null) {
                             if (detectedActivity.getType() == userActivity
@@ -278,8 +261,6 @@ public abstract class Context implements Serializable, GoogleApiClient.Connectio
                 .setResultCallback(new ResultCallback<HeadphoneStateResult>() {
                     @Override
                     public void onResult(@NonNull HeadphoneStateResult headphoneStateResult) {
-                        //Log.i(AwarenessAPIContextTest1.TESTE, headphoneStateResult.getHeadphoneState().toString());
-
                         if (headphoneState != null
                                 && headphoneStateResult != null) {
                             if (headphoneStateResult.getHeadphoneState().getState() == headphoneState) {

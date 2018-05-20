@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Statistic">
+    <option name="excludeDotArtifactDirectory" value="true" />
+    <option name="excludedDirectories">
+      <list>
+        <option value="$PROJECT_DIR$/app" />
+        <option value="$PROJECT_DIR$/build" />
+        <option value="$PROJECT_DIR$/gradle" />
+        <option value="$PROJECT_DIR$/ufahamu/build" />
+        <option value="$PROJECT_DIR$/ufahamu/libs" />
+        <option value="$PROJECT_DIR$/ufahamu/src/androidTest" />
+        <option value="$PROJECT_DIR$/ufahamu/src/test" />
+        <option value="$PROJECT_DIR$/ufahamu/src/main/res" />
+      </list>
+    </option>
+  </component>
+</project>

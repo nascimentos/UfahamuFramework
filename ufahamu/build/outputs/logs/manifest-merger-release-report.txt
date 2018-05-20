@@ -1,0 +1,89 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:1:1-27:12
+	package
+		ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:2:5-35
+		INJECTED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml
+		INJECTED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml
+		ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:1:1-27:12
+		INJECTED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml
+		ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:1:1-27:12
+		INJECTED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:1:11-69
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:4:5-94
+	android:name
+		ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:4:22-91
+uses-permission#android.permission.VIBRATE
+ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:5:22-63
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:9:5-72
+	android:name
+		ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:9:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:10:5-73
+	android:name
+		ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:10:22-70
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:12:22-72
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:14:5-70
+	android:name
+		ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:14:22-67
+uses-permission#android.permission.READ_SMS
+ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:15:22-64
+application
+ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:17:5-25:19
+	android:supportsRtl
+		ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:17:45-77
+	android:allowBackup
+		ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:17:18-44
+meta-data#com.google.android.awareness.API_KEY
+ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:19:9-21:70
+	android:value
+		ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:21:13-68
+	android:name
+		ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:20:13-64
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:22:9-24:70
+	android:value
+		ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:24:13-68
+	android:name
+		ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml:23:13-58
+uses-sdk
+INJECTED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml
+INJECTED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml
+INJECTED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml
+INJECTED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml
+		ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml
+		INJECTED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml
+		ADDED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml
+		INJECTED from /home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/src/main/AndroidManifest.xml

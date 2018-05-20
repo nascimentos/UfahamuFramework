@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/rafael/AndroidStudioProjects/FrameworkAware-master/ufahamu/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/rafael/.android/build-cache/58d03ce35e6db7a6869c78ad722f2551802f829f/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/rafael/AndroidStudioProjects/FrameworkAware-master/ufahamu/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/rafael/.android/build-cache/58d03ce35e6db7a6869c78ad722f2551802f829f/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/rafael/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.1.aar/44aadb6cf3ea60f66838b35e6877dbb3/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/rafael/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.1.aar/44aadb6cf3ea60f66838b35e6877dbb3/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

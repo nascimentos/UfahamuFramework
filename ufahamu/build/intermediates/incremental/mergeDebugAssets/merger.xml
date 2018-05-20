@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/rafael/AndroidStudioProjects/FrameworkAware-master/ufahamu/src/main/assets"/><source path="/home/rafael/AndroidStudioProjects/FrameworkAware-master/ufahamu/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/home/rafael/AndroidStudioProjects/FrameworkAware-master/ufahamu/src/debug/assets"/></dataSet></merger>

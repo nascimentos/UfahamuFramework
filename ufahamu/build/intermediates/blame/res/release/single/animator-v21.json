@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/rafael/AndroidStudioProjects/UfahamuMotorola/ufahamu/build/intermediates/res/merged/release/animator-v21/design_appbar_state_list_animator.xml",
+        "source": "/home/rafael/.gradle/caches/transforms-1/files-1.1/design-25.1.1.aar/47bd1c98d147264e15e51b2215ffec8a/res/animator-v21/design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "/home/rafael/AndroidStudioProjects/FrameworkAware-master/ufahamu/build/intermediates/res/merged/release/animator-v21/design_appbar_state_list_animator.xml",
+        "source": "/home/rafael/.android/build-cache/8ba9412cb643676214b0d846156a02465192abaa/output/res/animator-v21/design_appbar_state_list_animator.xml"
+    }
+]

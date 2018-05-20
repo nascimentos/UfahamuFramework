@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/rafael/AndroidStudioProjects/FrameworkAware-master/ufahamu/build/intermediates/res/merged/androidTest/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/home/rafael/.android/build-cache/8ba9412cb643676214b0d846156a02465192abaa/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/home/rafael/AndroidStudioProjects/FrameworkAware-master/ufahamu/build/intermediates/res/merged/androidTest/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/home/rafael/.android/build-cache/8ba9412cb643676214b0d846156a02465192abaa/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    }
+]

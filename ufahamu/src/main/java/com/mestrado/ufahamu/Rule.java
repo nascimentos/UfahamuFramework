@@ -16,10 +16,6 @@ public abstract class Rule {
 
     public Rule(Activity parentActivity) {
         this.parentActivity = parentActivity;
-
-        /*if (this.parentActivity != null) {
-            Log.i(AwarenessAPIContextTest1.TESTE, this.parentActivity.toString());
-        }*/
     }
 
     public Activity getParentActivity() {
@@ -35,7 +31,6 @@ public abstract class Rule {
     }
 
     public void startContextsMonitoring() {
-        //Log.i(MyActivity.LOG, "start context monitoring: " + this.getClass());
         contexts = doDefineContextList();
         actions = doDefineActionList();
 
@@ -91,15 +86,6 @@ public abstract class Rule {
         stopContextsMonitoring();
         contexts = null;
         actions = null;
-
-        /*
-        for (Context c : contexts) {
-            c = null;
-        }
-
-        for (Action a : actions) {
-            a = null;
-        }*/
     }
 
     protected abstract boolean doCondition();
